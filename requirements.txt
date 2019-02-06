@@ -7,12 +7,8 @@ coreapi==2.3.3
 coreschema==0.0.4
 dj-database-url==0.5.0
 dj-static==0.0.6
-Django==2.0.3
+Django==2.1.5
 django-cors-headers==2.4.0
-django-qr-code==1.0.0
-django-storages==1.6.5
-django-webpack-loader==0.6.0
-django-widget-tweaks==1.4.1
 djangorestframework==3.9.0
 djangorestframework-simplejwt==3.3
 docutils==0.14
@@ -32,7 +28,7 @@ PyJWT==1.7.1
 pylint==1.8.3
 python-dateutil==2.6.1
 python-decouple==3.1
-pytz==2018.3
+pytz==2018.9
 qrcode==6.0
 requests==2.21.0
 s3transfer==0.1.13
