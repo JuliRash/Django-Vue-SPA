@@ -5,8 +5,8 @@ It runs under officially Django supported versions:
 * Django 2.1.5
 * Python 3 (3.2, 3.4, 3.5, 3.6)
 
-! [Sample of the code output]
-(https://i.imgur.com/cMnsa7N.png)
+![love](https://user-images.githubusercontent.com/12122519/52381972-d1255080-2a73-11e9-9745-3bead1e2d3b1.png)
+
 
 ## How to install Django-Vue-SPA locally
 ========================================
