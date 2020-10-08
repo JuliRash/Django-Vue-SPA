@@ -1,332 +1,342 @@
-
 {% load static %}
 <!doctype html>
 <html class="no-js" lang="">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Hello SPA </title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- favicon
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Hello SPA </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- favicon
 		============================================ -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <!-- Google Fonts
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <!-- Google Fonts
 		============================================ -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
-    <!-- Bootstrap CSS
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+  <!-- Bootstrap CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
-    <!-- font awesome CSS
+  <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+  <!-- font awesome CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/font-awesome.min.css' %}">
-    <!-- owl.carousel CSS
+  <link rel="stylesheet" href="{% static 'assets/css/font-awesome.min.css' %}">
+  <!-- owl.carousel CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.css' %}">
-    <link rel="stylesheet" href="{% static 'assets/css/owl.theme.css' %}">
-    <link rel="stylesheet" href="{% static 'assets/css/owl.transitions.css' %}">
-    <!-- meanmenu CSS
+  <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/css/owl.theme.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/css/owl.transitions.css' %}">
+  <!-- meanmenu CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/meanmenu/meanmenu.min.css' %}">
-    <!-- animate CSS
+  <link rel="stylesheet" href="{% static 'assets/css/meanmenu/meanmenu.min.css' %}">
+  <!-- animate CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
-    <!-- normalize CSS
+  <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
+  <!-- normalize CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/normalize.css' %}">
-	<!-- wave CSS
+  <link rel="stylesheet" href="{% static 'assets/css/normalize.css' %}">
+  <!-- wave CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/wave/waves.min.css' %}">
-    <link rel="stylesheet" href="{% static 'assets/css/wave/button.css' %}">
-    <!-- mCustomScrollbar CSS
+  <link rel="stylesheet" href="{% static 'assets/css/wave/waves.min.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/css/wave/button.css' %}">
+  <!-- mCustomScrollbar CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/scrollbar/jquery.mCustomScrollbar.min.css' %}">
-    <!-- Notika icon CSS
+  <link rel="stylesheet" href="{% static 'assets/css/scrollbar/jquery.mCustomScrollbar.min.css' %}">
+  <!-- Notika icon CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/notika-custom-icon.css' %}">
-    <!-- Data Table JS
+  <link rel="stylesheet" href="{% static 'assets/css/notika-custom-icon.css' %}">
+  <!-- Data Table JS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/jquery.dataTables.min.css' %}">
-    <!-- main CSS
+  <link rel="stylesheet" href="{% static 'assets/css/jquery.dataTables.min.css' %}">
+  <!-- main CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
-    <!-- style CSS
+  <link rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+  <!-- style CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/style.css' %}">
-    <!-- responsive CSS
+  <link rel="stylesheet" href="{% static 'assets/style.css' %}">
+  <!-- responsive CSS
 		============================================ -->
-    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
-    <!-- modernizr JS
+  <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+  <!-- modernizr JS
 		============================================ -->
-    <script src="{% static 'assets/js/vendor/modernizr-2.8.3.min.js' %}"></script>
+  <script src="{% static 'assets/js/vendor/modernizr-2.8.3.min.js' %}"></script>
 </head>
 
 <body>
-    <!--[if lt IE 8]>
+  <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <!-- Start Header Top Area -->
-    <div class="header-top-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="logo-area">
-                        <!-- <a href="#"><img src="img/logo/logo.png" alt="" /></a> -->
-                        <h2>Hello SPA</h2>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    <div class="header-top-menu">
-                        <ul class="nav navbar-nav notika-top-nav">
-                         <br> 
-                
-                        </ul>
-                    </div>
-                </div>
-            </div>
+  <!-- Start Header Top Area -->
+  <div class="header-top-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <div class="logo-area">
+            <!-- <a href="#"><img src="img/logo/logo.png" alt="" /></a> -->
+            <h2>Hello SPA</h2>
+          </div>
         </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+          <div class="header-top-menu">
+            <ul class="nav navbar-nav notika-top-nav">
+              <br>
+
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- End Header Top Area -->
+  </div>
+  <!-- End Header Top Area -->
 
- 
-	<!-- Breadcomb area Start-->
-	<div class="breadcomb-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="breadcomb-list">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-								<div class="breadcomb-wp">
-									<div class="breadcomb-icon">
-										<i class="notika-icon notika-windows"></i>
-									</div>
-									<div class="breadcomb-ctn">
-										<h2>Hello SPA</h2>
-										<p>Welcome to a Single page Application with Django, Vue.js and Axios.js <span class="bread-ntd">Admin Template</span></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
-								<div class="breadcomb-report">
-									<!-- <button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button> -->
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Breadcomb area End-->
-    <!-- Data Table area Start-->
-    <div class="data-table-area">
-      <div id="startapp">
-        <div class="container">
+
+  <!-- Breadcomb area Start-->
+  <div class="breadcomb-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="breadcomb-list">
             <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="breadcomb-wp">
+                  <div class="breadcomb-icon">
+                    <i class="notika-icon notika-windows"></i>
+                  </div>
+                  <div class="breadcomb-ctn">
+                    <h2>Hello SPA</h2>
+                    <p>Welcome to a Single page Application with Django, Vue.js and Axios.js <span
+                        class="bread-ntd">Admin Template</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
+                <div class="breadcomb-report">
+                  <!-- <button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Breadcomb area End-->
+  <!-- Data Table area Start-->
+  <div class="data-table-area">
+    <div id="startapp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="data-table-list">
+              <div class="basic-tb-hd">
+                <h2>Basic Example</h2>
+                <p>It's just that simple. Create a simple html page and use vue.js and axios.js after you've created
+                  your api .</p>
+              </div>
+              <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="data-table-list">
-                        <div class="basic-tb-hd">
-                            <h2>Basic Example</h2>
-                            <p>It's just that simple. Create a simple html page and use vue.js and axios.js after you've created your api .</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="modals-list mg-t-30">
-                                    <div class="modals-single">
-                                       
-                                        <div class="modals-default-cl">
-                                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#addArticle">Add new Article</button>
-                                            <div class="modal fade" id="addArticle" role="dialog">
-                                                <div class="modal-dialog modals-default">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                            <h2>Add New Article</h2>
-                                                        </div>
-                                                       
-                                                        <div class="modal-body">
-                                                            
-                                                            <form v-on:submit.prevent="addArticle">
-                                                              <div class="form-group">
-                                                                <label for="article_title">Article Title</label>
-                                                                <input type="text" class="form-control" placeholder="Article Title" v-model="newArticle.article_title">
-                                                              </div>
-                                                          
-                                                              <div class="form-group">
-                                                                <label for="article-body">Article Body</label>
-                                                                  <textarea name="" id="" cols="30" rows="10" class="form-control" v-model="newArticle.article_body"></textarea>
-                                                                </div>
-                                                                <button type="submit" class="btn btn-success">Save changes</button>
-                                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                                            </form>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
+                  <div class="modals-list mg-t-30">
+                    <div class="modals-single">
 
-                                        <div class="modals-default-cl">
-                                            
-                                            <div class="modal fade" id="editArticleModal" role="dialog">
-                                                <div class="modal-dialog modals-default">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                            <h2>Edit Article</h2>
-                                                        </div>
-                                                       
-                                                        <div class="modal-body">
-                                                            
-                                                            <form v-on:submit.prevent="updateArticle">
-                                                              <div class="form-group">
-                                                                <label for="article_title">Article Title</label>
-                                                                <input type="text" class="form-control" placeholder="Article Title" v-model="currentArticle.article_title">
-                                                              </div>
-                                                          
-                                                              <div class="form-group">
-                                                                <label for="article-body">Article Body</label>
-                                                                  <textarea name="" id="" cols="30" rows="10" class="form-control" v-model="currentArticle.article_body"></textarea>
-                                                                </div>
-                                                                <button type="submit" class="btn btn-success">Save changes</button>
-                                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                                            </form>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
+                      <div class="modals-default-cl">
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#addArticle">Add new
+                          Article</button>
+                        <div class="modal fade" id="addArticle" role="dialog">
+                          <div class="modal-dialog modals-default">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2>Add New Article</h2>
+                              </div>
+
+                              <div class="modal-body">
+
+                                <form v-on:submit.prevent="addArticle">
+                                  <div class="form-group">
+                                    <label for="article_title">Article Title</label>
+                                    <input type="text" class="form-control" placeholder="Article Title"
+                                      v-model="newArticle.article_title">
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="article-body">Article Body</label>
+                                    <textarea name="" id="" cols="30" rows="10" class="form-control"
+                                      v-model="newArticle.article_body"></textarea>
+                                  </div>
+                                  <button type="submit" class="btn btn-success">Save changes</button>
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+
+                              </div>
                             </div>
+                          </div>
                         </div>
-                        <div class="table-responsive">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Title</th>
-                                        <th>Body</th>
-                                        <th>Edit</th>
-                                        <th>Delete</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr v-for="article in articles" :key="article.article_id">
-                                        <td>${ article.article_id }</td>
-                                        <td>${ article.article_title }</td>
-                                        <td>${ article.article_body }</td>
-                                        <td><button class="btn btn-primary btn-round" v-on:click="getArticle(article.article_id)">Edit</button></td>
-                                        <td><button class="btn btn-danger btn-round" v-on:click="deleteArticle(article.article_id)" >Delete</button></td>
-                                    </tr>
-                                
-                                </tbody>
-                                
-                                   
-                            </table>
-                          
+
+                      </div>
+
+                      <div class="modals-default-cl">
+
+                        <div class="modal fade" id="editArticleModal" role="dialog">
+                          <div class="modal-dialog modals-default">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h2>Edit Article</h2>
+                              </div>
+
+                              <div class="modal-body">
+
+                                <form v-on:submit.prevent="updateArticle">
+                                  <div class="form-group">
+                                    <label for="article_title">Article Title</label>
+                                    <input type="text" class="form-control" placeholder="Article Title"
+                                      v-model="currentArticle.article_title">
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="article-body">Article Body</label>
+                                    <textarea name="" id="" cols="30" rows="10" class="form-control"
+                                      v-model="currentArticle.article_body"></textarea>
+                                  </div>
+                                  <button type="submit" class="btn btn-success">Save changes</button>
+                                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+
+                              </div>
+                            </div>
+                          </div>
                         </div>
+
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Title</th>
+                      <th>Body</th>
+                      <th>Edit</th>
+                      <th>Delete</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="article in articles" :key="article.id">
+                      <td>${ article.id }</td>
+                      <td>${ article.article_title }</td>
+                      <td>${ article.article_body }</td>
+                      <td><button class="btn btn-primary btn-round" v-on:click="getArticle(article.id)">Edit</button>
+                      </td>
+                      <td><button class="btn btn-danger btn-round"
+                          v-on:click="deleteArticle(article.id)">Delete</button></td>
+                    </tr>
+
+                  </tbody>
+
+
+                </table>
+
+              </div>
             </div>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-    <!-- Data Table area End-->
-    <!-- Start Footer area-->
-    <div class="footer-copyright-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="footer-copy-right">
-                        <p>Copyright © 2018 <a href="https://github.com/JuliRash">JuliRash </a> <3 </p>
-                    </div>
-                </div>
-            </div>
+  </div>
+  <!-- Data Table area End-->
+  <!-- Start Footer area-->
+  <div class="footer-copyright-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="footer-copy-right">
+            <p>Copyright © 2018 <a href="https://github.com/JuliRash">JuliRash </a>
+              <3 </p>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- End Footer area-->
-    <!-- jquery
+  </div>
+  <!-- End Footer area-->
+  <!-- jquery
 		============================================ -->
-    <script src="{% static 'assets/js/vendor/jquery-1.12.4.min.js' %}"></script>
-    <!-- bootstrap JS
+  <script src="{% static 'assets/js/vendor/jquery-1.12.4.min.js' %}"></script>
+  <!-- bootstrap JS
 		============================================ -->
-    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
-    <!-- wow JS
+  <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+  <!-- wow JS
 		============================================ -->
-    <script src="{% static 'assets/js/wow.min.js' %}"></script>
-    <!-- price-slider JS
+  <script src="{% static 'assets/js/wow.min.js' %}"></script>
+  <!-- price-slider JS
 		============================================ -->
-    <script src="{% static 'assets/js/jquery-price-slider.js' %}"></script>
-    <!-- owl.carousel JS
+  <script src="{% static 'assets/js/jquery-price-slider.js' %}"></script>
+  <!-- owl.carousel JS
 		============================================ -->
-    <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
-    <!-- scrollUp JS
+  <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+  <!-- scrollUp JS
 		============================================ -->
-    <script src="{% static 'assets/js/jquery.scrollUp.min.js' %}"></script>
-    <!-- meanmenu JS
+  <script src="{% static 'assets/js/jquery.scrollUp.min.js' %}"></script>
+  <!-- meanmenu JS
 		============================================ -->
-    <script src="{% static 'assets/js/meanmenu/jquery.meanmenu.js' %}"></script>
-    <!-- counterup JS
+  <script src="{% static 'assets/js/meanmenu/jquery.meanmenu.js' %}"></script>
+  <!-- counterup JS
 		============================================ -->
-    <script src="{% static 'assets/js/counterup/jquery.counterup.min.js' %}"></script>
-    <script src="{% static 'assets/js/counterup/waypoints.min.js' %}"></script>
-    <script src="{% static 'assets/js/counterup/counterup-active.js' %}"></script>
-    <!-- mCustomScrollbar JS
+  <script src="{% static 'assets/js/counterup/jquery.counterup.min.js' %}"></script>
+  <script src="{% static 'assets/js/counterup/waypoints.min.js' %}"></script>
+  <script src="{% static 'assets/js/counterup/counterup-active.js' %}"></script>
+  <!-- mCustomScrollbar JS
 		============================================ -->
-    <script src="{% static 'assets/js/scrollbar/jquery.mCustomScrollbar.concat.min.js' %}"></script>
-    <!-- sparkline JS
+  <script src="{% static 'assets/js/scrollbar/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+  <!-- sparkline JS
 		============================================ -->
-    <script src="{% static 'assets/js/sparkline/jquery.sparkline.min.js' %}"></script>
-    <script src="{% static 'assets/js/sparkline/sparkline-active.js' %}"></script>
-    <!-- flot JS
+  <script src="{% static 'assets/js/sparkline/jquery.sparkline.min.js' %}"></script>
+  <script src="{% static 'assets/js/sparkline/sparkline-active.js' %}"></script>
+  <!-- flot JS
 		============================================ -->
-    <script src="{% static 'assets/js/flot/jquery.flot.js' %}"></script>
-    <script src="{% static 'assets/js/flot/jquery.flot.resize.js' %}"></script>
-    <script src="{% static 'assets/js/flot/flot-active.js' %}"></script>
-    <!-- knob JS
+  <script src="{% static 'assets/js/flot/jquery.flot.js' %}"></script>
+  <script src="{% static 'assets/js/flot/jquery.flot.resize.js' %}"></script>
+  <script src="{% static 'assets/js/flot/flot-active.js' %}"></script>
+  <!-- knob JS
 		============================================ -->
-    <script src="{% static 'assets/js/knob/jquery.knob.js' %}"></script>
-    <script src="{% static 'assets/js/knob/jquery.appear.js' %}"></script>
-    <script src="{% static 'assets/js/knob/knob-active.js' %}"></script>
-    <!--  Chat JS
+  <script src="{% static 'assets/js/knob/jquery.knob.js' %}"></script>
+  <script src="{% static 'assets/js/knob/jquery.appear.js' %}"></script>
+  <script src="{% static 'assets/js/knob/knob-active.js' %}"></script>
+  <!--  Chat JS
 		============================================ -->
-    <script src="{% static 'assets/js/chat/jquery.chat.js' %}"></script>
-    <!--  todo JS
+  <script src="{% static 'assets/js/chat/jquery.chat.js' %}"></script>
+  <!--  todo JS
 		============================================ -->
-    <script src="{% static 'assets/js/todo/jquery.todo.js' %}"></script>
-	<!--  wave JS
+  <script src="{% static 'assets/js/todo/jquery.todo.js' %}"></script>
+  <!--  wave JS
 		============================================ -->
-    <script src="{% static 'assets/js/wave/waves.min.js' %}"></script>
-    <script src="{% static 'assets/js/wave/wave-active.js' %}"></script>
-    <!-- plugins JS
+  <script src="{% static 'assets/js/wave/waves.min.js' %}"></script>
+  <script src="{% static 'assets/js/wave/wave-active.js' %}"></script>
+  <!-- plugins JS
 		============================================ -->
-    <script src="{% static 'assets/js/plugins.js' %}"></script>
-    <!-- Data Table JS
+  <script src="{% static 'assets/js/plugins.js' %}"></script>
+  <!-- Data Table JS
 		============================================ -->
-    <script src="{% static 'assets/js/data-table/jquery.dataTables.min.js' %}"></script>
-    <script src="{% static 'assets/js/data-table/data-table-act.js' %}"></script>
-    <!-- main JS
+  <script src="{% static 'assets/js/data-table/jquery.dataTables.min.js' %}"></script>
+  <script src="{% static 'assets/js/data-table/data-table-act.js' %}"></script>
+  <!-- main JS
 		============================================ -->
-    <script src="{% static 'assets/js/main.js' %}"></script>
-	  <!-- tawk chat JS
+  <script src="{% static 'assets/js/main.js' %}"></script>
+  <!-- tawk chat JS
     ============================================ -->
-    <!-- Vue JS
+  <!-- Vue JS
     ============================================ -->
-    <script src="{% static 'assets/js/vue.js' %}"></script>
-    <script src="{% static 'assets/js/axios.min.js' %}"></script>
-   <!--Custom  Vue JS
+  <script src="{% static 'assets/js/vue.js' %}"></script>
+  <script src="{% static 'assets/js/axios.min.js' %}"></script>
+  <!--Custom  Vue JS
     ============================================ -->
-    <script src="{% static 'assets/main.js' %}"></script>
-    
+  <script src="{% static 'assets/main.js' %}"></script>
+
 </body>
+
 </html>
