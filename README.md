@@ -13,27 +13,25 @@ It runs under officially Django supported versions:
 
 This Application can be installed by following the instructions below.
 
-you must have python 3 > and latest pip  installed
+you must have **[python 3](https://www.python.org/downloads/)** > and  [pipenv](https://pypi.org/project/pipenv/)  installed
 
 
-### Install and  activate Virtual Environment.
-```
-pip install virtualenv
+### Clone thie repository
 
-virtualenv -p python3  <virtualenv_name>
-```
-### Navigate to your Virtual Environment and activate it with the command below.
-```
-source bin/activate
-```
+    $ git clone git@github.com:JuliRash/Django-Vue-SPA.git
 
-### Make sure you are in virtualenv
+### Change the directory to the application folder.
 
-Install modules by using this command
+    $ cd Django-Vue-SPA 
 
-```
-pip install -r requirement
-```
+### Activate the virtualenv using pipenv
+
+    $ pipenv shell
+
+### Install the requirements for the project
+
+    $ pipenv install -r requirements.txt
+
 
 ### Run migrations and migrate: 
 ```
@@ -44,4 +42,9 @@ python manage.py migrate
 ### Start the App.
 ```
 python manage.py runserver
+```
+
+### Run Tests.
+```
+python manage.py test
 ```
