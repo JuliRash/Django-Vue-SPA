@@ -9,7 +9,7 @@ coreschema==0.0.4
 dj-database-url==0.5.0
 dj-static==0.0.6
 django-cors-headers==2.4.0
-django==2.1.5
+django==2.2.13
 djangorestframework-simplejwt==3.3
 djangorestframework==3.9.0
 docutils==0.14
@@ -34,6 +34,7 @@ qrcode==6.0
 requests==2.21.0
 s3transfer==0.1.13
 six==1.11.0
+sqlparse==0.4.1
 static3==0.7.0
 uritemplate==3.0.0
 urllib3==1.24.1
