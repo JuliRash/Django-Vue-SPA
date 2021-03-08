@@ -48,3 +48,20 @@ python manage.py runserver
 ```
 python manage.py test
 ```
+
+## Easy Install With Docker
+<br>
+
+### Requirements.
+
+* [Docker](https://www.docker.com)
+* [ Docker Compose](https://docs.docker.com/compose/)
+
+After cloning the repository to your local machine run the command below.
+
+```bash
+    $ docker-compose up
+ ```
+
+After installation is successfull you can visit the application in this link below.
+[http://127.0.0.1:8000](http://127.0.0.1:8000)
